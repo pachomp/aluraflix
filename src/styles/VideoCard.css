@@ -1,0 +1,17 @@
+.video-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .video-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .video-card {
+      flex: 1 1 calc(33.333% - 1rem);
+    }
+  }
+  
